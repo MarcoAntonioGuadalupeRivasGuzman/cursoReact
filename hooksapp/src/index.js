@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import HooksApp from './HooksApp';
 import reportWebVitals from './reportWebVitals';
+import { MultippleCustomHooks } from './useFetch/multipleCustomHooks';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  /*<React.StrictMode>
     <HooksApp />
+  </React.StrictMode>*/
+  <React.StrictMode>
+    <MultippleCustomHooks />
   </React.StrictMode>
 );
 
